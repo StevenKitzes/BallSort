@@ -1,10 +1,28 @@
-I took a programmer test for a job yesterday night.  I thought I did well, but ultimately did badly!  I only had an hour to do the test, so I didn't have a lot of time to brainstorm, and it was a concept I haven't had to work with yet at my current job, so I had to come up with a plan - whatever I could think of the most quickly - and implement it even if it wasn't the right plan.  Also, it was a Notepad.exe style test, so there was no way for me to test whether what I was writing was good or not.
+I took a programmer test for a job yesterday night.  I thought I did well,
+but ultimately did badly!  I only had an hour to do the test, so I didn't
+have a lot of time to brainstorm, and it was a concept I haven't had to work
+with yet at my current job, so I had to come up with a plan - whatever I
+could think of the most quickly - and implement it even if it wasn't the
+right plan.  Also, it was a Notepad.exe style test, so there was no way for
+me to test whether what I was writing was good or not.
 
-This project is a simple program to solve the problem put forth in that programming test.  Since I don't have a time limit, I am sure I can complete it; however, I can't verify that my methodology will be the best / most efficient.
+This project is a simple program to solve the problem put forth in that
+programming test.  Since I don't have a time limit, I am sure I can complete
+it; however, I can't verify that my methodology will be the best / most efficient.
 
 Objectives:
 Write a function using the following prototype:
 unsigned part(Ball aBalls[], unsigned cBalls);
-'part' is a partitioning function.  It takes in an array of Ball objects, each of which has a private data member representing:
+'part' is a partitioning function.  It takes in an array of Ball objects, each
+of which has a private data member representing:
 enum BallColor {RED, BLUE};
-The array of Ball objects will have red and blue balls in a random order.  The objective is to sort the balls into partitions so that all balls of the same color are contiguous, with no exceptions.  In other words, all blue balls come first, and all red balls come after; or all red balls come first and all blue balls come after.  Either of these is fine.  Last, return the index of the first ball that appears in the sorted array that is of the second color.  In other words, if the array begins with blue balls, return the index of the first red ball to appear.  If there are no balls in the array or the array contains balls of only one color, return zero.  Keep efficiency in mind and make this an in-place sort.
+The array of Ball objects will have red and blue balls in a random order.
+The objective is to sort the balls into partitions so that all balls of the
+same color are contiguous, with no exceptions.  In other words, all blue balls
+come first, and all red balls come after; or all red balls come first and all
+blue balls come after.  Either of these is fine.  Last, return the index of the
+first ball that appears in the sorted array that is of the second color.  In
+other words, if the array begins with blue balls, return the index of the first
+red ball to appear.  If there are no balls in the array or the array contains
+balls of only one color, return zero.  Keep efficiency in mind and make this an
+in-place sort.
