@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1370443432 source:c:\users\steven kitzes\dropbox\prg\putingit\ballsort\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<time.h>
+
+1370447648 source:c:\users\steven kitzes\dropbox\prg\git\ballsort\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<time.h>
+
